@@ -1,0 +1,17 @@
+language: bash
+services: docker
+
+env:
+  - VERSION=7.3 VARIANT=apache
+
+before_script:
+  - env | sort
+  - cd "src/$VERSION/$VARIANT"
+  - image="${DOCKER_USERNAME}/php:${VERSION}-${VARIANT}"
+
+script:
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - docker build -t "$image" .
+  - docker images
+  - docker tag $image $DOCKER_USERNAME/test
+  - docker push $DOCKER_USERNAME/test
