@@ -1,5 +1,7 @@
 # Docker PHP Image
 
+[![Build Status](https://travis-ci.org/jrobinsonc/docker-php-image.svg?branch=master)](https://travis-ci.org/jrobinsonc/docker-php-image)
+
 Docker image to run PHP applications.  
 <https://hub.docker.com/r/jrobinsonc/php>
 
