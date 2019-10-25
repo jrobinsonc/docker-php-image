@@ -1,6 +1,6 @@
 # Docker PHP Image
 
-Docker image to run a PHP apps.  
+Docker image to run PHP applications.  
 <https://hub.docker.com/r/jrobinsonc/php>
 
 ## Includes
