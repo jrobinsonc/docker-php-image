@@ -5,5 +5,7 @@ RUN apt-get update; \
     docker-php-ext-install zip; \
     rm -rf /var/lib/apt/lists/*;
 
+RUN a2enmod ssl rewrite
+
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
     && chmod +x /usr/local/bin/composer
