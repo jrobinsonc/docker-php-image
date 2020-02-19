@@ -10,6 +10,7 @@ Why this image? Well, the difference between the original and this one is that i
 If you are looking for something more specific, below you can see other images designed for specific environments:
 
 * [WordPress](https://github.com/jrobinsonc/docker-wordpress-image)
+* [Laravel](https://github.com/jrobinsonc/docker-laravel-image)
 
 ## Includes
 
@@ -25,8 +26,7 @@ If you are looking for something more specific, below you can see other images d
 **Start the container:**
 
 ```shell
-docker run -d \
-  --name app \
+docker run \
   -p 80:80 \
   -p 443:443 \
   -v $(pwd):/var/www/html \
