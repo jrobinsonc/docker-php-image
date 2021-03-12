@@ -22,6 +22,7 @@ If you are looking for something more specific, below you can see other images d
 * PHP 7.2 with Apache → `jrobinsonc/php:7.2-apache`
 * PHP 7.3 with Apache → `jrobinsonc/php:7.3-apache`
 * PHP 7.4 with Apache → `jrobinsonc/php:7.4-apache`
+* PHP 8.0 with Apache → `jrobinsonc/php:8.0-apache`
 
 ## How to use
 
