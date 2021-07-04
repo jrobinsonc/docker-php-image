@@ -23,6 +23,7 @@ If you are looking for something more specific, below you can see other images d
 * PHP 7.3 with Apache → `jrobinsonc/php:7.3-apache`
 * PHP 7.4 with Apache → `jrobinsonc/php:7.4-apache`
 * PHP 8.0 with Apache → `jrobinsonc/php:8.0-apache`
+* PHP 8.0 FPM → `jrobinsonc/php:8.0-fpm`
 
 ## How to use
 
